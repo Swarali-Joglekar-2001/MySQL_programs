@@ -5,7 +5,7 @@ CREATE TABLE Customers (
   Country varchar(10)
  );
 
-Insert into Customers values ("abs",897,"india"),("xyz",789,"china"),("dfg",356,"japan");
+Insert into Customers values ("abc",897,"india"),("xyz",789,"china"),("dfg",356,"japan");
 -- select * from Customers;
 
 Create view viewCust AS
