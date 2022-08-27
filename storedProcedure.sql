@@ -16,3 +16,15 @@ end &&
 delimiter;
 
 call top_players();
+
+
+--delimiter //
+--create procedure sp_sortBySalary(IN var int)   -- using parameter
+--begin
+--select name, age, salary from emp_details
+--order by salary desc limit var;
+--end //
+--delimiter ;
+
+--call sp_sortBySalary(3);
+
