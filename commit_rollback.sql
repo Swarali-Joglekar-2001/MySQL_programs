@@ -15,6 +15,9 @@ select * from students;
 INSERT INTO students VALUES(3,'Angela','F');
 select * from students;
 
+-- If you've committed your changes, they can't be rolled back.
+
+
 -- Output
 -- id	name	gender
 -- 3	Angela	F
