@@ -68,3 +68,15 @@ ON e.DeptID=d.ID;
 -- NULL	NULL	Aeronautical
 
 
+-- Full join- returns all rows from left and right tables, including the non-matching rows
+
+
+-- Cross join- cartesian product of two tables involved in the join 
+-- e.g. 10 rows in one table and 4 rows in another table, then 40 rows after cross join
+-- Cross join shouldn't have ON clause
+
+
+
+
+
+
